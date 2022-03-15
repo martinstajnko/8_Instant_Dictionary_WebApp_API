@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "8_instant_dictionary_webapp_api"
+version = "0.1.0"
+description = ""
+authors = ["martinstajnko <stajnko.martin93@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9.5"
+Flask = "^2.0.2"
+pandas = "^1.3.4"
+justpy = "^0.2.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
